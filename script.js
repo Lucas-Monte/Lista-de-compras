@@ -63,7 +63,7 @@ function mostrarItem(){
         if (elemento.checar) {
             ulItensAdicionadosCarrinho.innerHTML += `
         <li class="item-compra" data-value="${index}">
-            <div class="lista-de-itens-compra">
+            <div class="lista-de-itens-comprados">
                 <input type="checkbox" checked class="is-clickable" />
                 <span type="text" class="itens-adicionados-carrinho is-size-5">${elemento.valor}</span>
             </div>
